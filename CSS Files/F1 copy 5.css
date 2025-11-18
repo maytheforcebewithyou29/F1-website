@@ -1,0 +1,166 @@
+body{
+    background-color: #c50804;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif
+}
+
+#container{
+    width:750px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    background-color: #FFFF;
+    border-right: solid 2px #52331C;
+    border-left:  solid 2px #52331C;
+}
+
+/*TEXT TAG STYLES*/
+h1{
+    font-family: "Arial Black", Gadget, sans-serif;
+   font-size: 76px;
+   color: #000;
+   margin-top: 0px;
+   margin-bottom: 0px;
+
+}
+h2{
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 26px;
+}
+
+h3{
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 26px;
+    color: #000;
+}
+
+p{
+    font-size: 16px;
+    color: #000;
+    padding: 0px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+/*MENU STYLES*/
+#menu{
+    width: 170px;
+    float: left;
+}
+
+#menu ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+ol {
+  list-style-position: outside;   /* keep numbers outside the button */
+  padding-left: 40px;             /* space for numbers */
+}
+
+ol li {
+  display: flex;                  /* align number + button together */
+  align-items: flex-start;        /* align number to the top edge */
+  margin-bottom: 12px;
+}
+
+ol li::marker {
+  font-weight: bold;
+  font-size: 1.2em;               /* make numbers stand out */
+  line-height: 1;                 /* tighten vertical alignment */
+}
+
+ol li a {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Example team colors */
+ol li:nth-child(1) a { background-color: #E8CC9f; border: 1px solid #4D331E; color: #4D331E; }
+ol li:nth-child(2) a { background-color: #FF8000; border: 1px solid #000; }
+ol li:nth-child(3) a { background-color: #00c7a8; border: 1px solid #000; }
+ol li:nth-child(4) a { background-color: #1c2749; border: 1px solid #000; }
+ol li:nth-child(5) a { background-color: #E42528; border: 1px solid #000; }
+ol li:nth-child(6) a { background-color: #1764ec; border: 1px solid #000; }
+ol li:nth-child(7) a { background-color: #4d75db; border: 1px solid #000; }
+ol li:nth-child(8) a { background-color: #0f6d4b; border: 1px solid #000; }
+ol li:nth-child(9) a { background-color: #767a7c; border: 1px solid #000; }
+ol li:nth-child(10) a { background-color: #01ae0b; border: 1px solid #000; }
+ol li:nth-child(11) a { background-color: #006ba4; border: 1px solid #000; }
+
+
+
+
+/*MAIN SECTION*/
+#main{
+    margin-left: 190px;
+
+}
+
+#main h3{
+    color: #4D331E;
+    margin-bottom: 4px;
+    font-size: 30px;
+}
+
+#main p{
+    font-size: 18px;
+    margin-top:6px;
+    margin-bottom: 6px;
+    
+}
+
+#main a:link, #main a:visited{
+    color: #900;
+    text-decoration: underline;
+}
+#main a:hover, #main a:active{
+    color: #03c;
+}
+
+/*FOOTER SECTION*/
+#footer{
+    background-color: #000;
+    margin-top: 20px;
+    clear: both;/*MAKES THE FOOTER ALWAYS SIT UNDERNEATH THE MENU AND IMAGE*/
+}
+
+#footer p{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+    color: #fff;
+    text-align: center;
+}
+
+#footer a:link, #footer a:visited{
+    color: #E8CC9f;
+    text-decoration: underline;
+}
+#footer a:hover, #footer a:active{
+    color: #000;
+}
+
+/*LINK STLYES*/
+a:link, a:visted{
+    color: #060;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    color: #900;
+    text-decoration: underline;
+}
+
+/*CLASS STYLES*/
+.rightfloat{
+    border:2px solid #060;
+
+}
